@@ -1,0 +1,6 @@
+server:
+  #配置访问的端口
+  port: 8001
+  #配置访问时的项目名 
+  servlet:
+    context-path: /demo
