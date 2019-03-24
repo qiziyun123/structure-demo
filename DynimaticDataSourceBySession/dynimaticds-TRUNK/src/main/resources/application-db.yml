@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://39.96.197.53:3306/dsdemo?useSSL=false
+    username: root
+    password: YC-28-07-35/qiziyun
+    type: com.alibaba.druid.pool.DruidDataSource
+#ds1,ds2 其他两个数据源
+#slave.datasource.names=ds1,ds2
+#ds1
+#slave.datasource.ds1.driver=com.mysql.jdbc.Driver
+#slave.datasource.ds1.url=jdbc:mysql://localhost:3306/test1?useSSL=false
+#slave.datasource.ds1.username=root
+#slave.datasource.ds1.password=123456
+#ds2
+#slave.datasource.ds2.driver=com.mysql.jdbc.Driver
+#slave.datasource.ds2.url=jdbc:mysql://localhost:3306/test2?useSSL=false
+#slave.datasource.ds2.username=root
+#slave.datasource.ds2.password=123456

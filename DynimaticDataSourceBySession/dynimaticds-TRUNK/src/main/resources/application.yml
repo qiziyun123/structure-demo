@@ -3,4 +3,10 @@ server:
   port: 8001
   #配置访问时的项目名 
   servlet:
-    context-path: /demo
+    context-path: /dsdemo
+spring:
+  profiles:
+    include: db
+mybatis:
+  typeAliasesPackage: com.qizy.dynimaticds.entity
+  mapperLocations: classpath:mapper/*.xml
